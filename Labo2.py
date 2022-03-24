@@ -24,6 +24,7 @@ def eskaera1():
     soup = BeautifulSoup(html, 'html.parser')
     login_token = soup.find_all('td', {'class': 'fondo_listado'})
     cookie = soup.find_all('td', {'class': 'fondo_listado'})
+    #soup.find_all PROBA
 
 if __name__ == '__main__':
     #Programa deitzerakoan argumentuak 1: erabiltzailea 2: izena
